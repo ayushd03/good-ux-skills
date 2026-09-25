@@ -1,0 +1,20 @@
+name: Rule correction or gap
+description: A rule is wrong, too vague, or missing
+labels: ["rules"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: File and section
+      placeholder: references/behavior.md, "Choosing a pattern"
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong or missing
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: WCAG criterion, research, platform guideline, or your observation.

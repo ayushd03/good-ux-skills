@@ -1,0 +1,12 @@
+{
+  "name": "good-ux-skills",
+  "description": "Turns feature requests into buildable UX plans and reviews existing screens: evidence-labeled decisions, flows, states, recovery, WCAG 2.2 AA, and measurement.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ayush Dangwal"
+  },
+  "homepage": "https://github.com/ayushd03/good-ux-skills",
+  "repository": "https://github.com/ayushd03/good-ux-skills",
+  "license": "MIT",
+  "keywords": ["skills", "ux", "design", "usability", "accessibility", "wcag", "product", "frontend"]
+}

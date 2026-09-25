@@ -1,0 +1,18 @@
+{
+  "name": "good-ux-skills",
+  "description": "UX planning and review skills for coding agents",
+  "owner": {
+    "name": "Ayush Dangwal"
+  },
+  "plugins": [
+    {
+      "name": "good-ux-skills",
+      "description": "Turns feature requests into buildable UX plans and reviews existing screens: evidence-labeled decisions, flows, states, recovery, WCAG 2.2 AA, and measurement.",
+      "version": "1.0.0",
+      "source": "./",
+      "author": {
+        "name": "Ayush Dangwal"
+      }
+    }
+  ]
+}

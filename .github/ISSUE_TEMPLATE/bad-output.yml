@@ -1,0 +1,31 @@
+name: The skill gave a bad answer
+description: The agent produced a weak plan or review while using the skill
+labels: ["skill-behavior"]
+body:
+  - type: input
+    id: agent
+    attributes:
+      label: Agent and model
+      placeholder: Claude Code with Claude Opus, Cursor with GPT, ...
+    validations:
+      required: true
+  - type: textarea
+    id: request
+    attributes:
+      label: Your request
+      description: What you asked the agent.
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: What the agent produced
+      description: Paste the relevant part of the answer.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What a good answer would have done
+    validations:
+      required: true
